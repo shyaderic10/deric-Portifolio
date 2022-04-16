@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100px; 
+    background-color: rgb(66, 147, 253);
+}
+header nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav .img-container img{
+
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     float: left;
+}
+header nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+    padding-top: 3px;
+   
+
+}
+header nav ul li a{
+    padding: 30px;
+
+
+}
+header nav ul li{
+    padding: 30px;
+    font-size: 30px;
+}
